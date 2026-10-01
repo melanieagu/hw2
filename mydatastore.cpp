@@ -90,7 +90,7 @@ void MyDataStore::dump(std::ostream& ofile){
         for (it6 = users_.begin(); it6 != users_.end(); ++it6) {
             it6->second->dump(ofile);
         }
-        ofile << "</users" << std::endl;
+        ofile << "</users>" << std::endl;
         
 
     }
